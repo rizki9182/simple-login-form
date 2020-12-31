@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <h2>Jalan Kembali</h2>
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" id="toggle-login">Log In</button>
+                <button type="button" class="toggle-btn" id="toggle-register">Register</button>
+            </div>
+            
+            <div id="login" class="input-group">
+                <input type="text" class="input-field" id="usernameLogin" placeholder="User Id" required>
+                <input type="text" class="input-field" id="passwordLogin" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="button" id="loginButton" class="submit-btn">Log In</button>
+            </div>
+            
+            <div id="register" class="input-group">
+                <input type="text" class="input-field" id="useridRegister" placeholder="User Id" required>
+                <input type="email" class="input-field" id="emailRegister" placeholder="Email" required>
+                <input type="text" class="input-field" id="passwordRegister" placeholder="Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & service</span>
+                <button type="button" id="registerButton" class="submit-btn">Register</button>
+            </div>
+        </div>
+    </div>
+    <script src="animate.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
